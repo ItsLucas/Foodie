@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/johnsnow/github/XTaobao-master/iOS_Dialog_Library/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/johnsnow/github/XTaobao-master/iOS_Dialog_Library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/johnsnow/github/XTaobao-master/E:\\Workspaces\\Projects\\XTaobao\\iOS_Dialog_Library\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/johnsnow/github/XTaobao-master/E:\\Workspaces\\Projects\\XTaobao\\iOS_Dialog_Library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/johnsnow/github/XTaobao-master/D:\\XTaobao-master\\iOS_Dialog_Library\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/johnsnow/github/XTaobao-master/D:\\XTaobao-master\\iOS_Dialog_Library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/johnsnow/github/XTaobao-master/iOS_Dialog_Library/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/johnsnow/github/XTaobao-master/iOS_Dialog_Library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/johnsnow/github/XTaobao-master/E:\\Workspaces\\Projects\\XTaobao\\iOS_Dialog_Library\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/johnsnow/github/XTaobao-master/E:\\Workspaces\\Projects\\XTaobao\\iOS_Dialog_Library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/johnsnow/github/XTaobao-master/D:\\XTaobao-master\\iOS_Dialog_Library\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/johnsnow/github/XTaobao-master/D:\\XTaobao-master\\iOS_Dialog_Library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    }
+]
