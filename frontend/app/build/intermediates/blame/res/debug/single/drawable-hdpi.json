@@ -1,1034 +1,518 @@
 [
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_home_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_home_home_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_we_news.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_we_news.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_phone.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_phone.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_order_jian.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_order_jian.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_setting_msg.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_setting_msg.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_pingjia.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_pingjia.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\error.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\error.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_we_medal.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_we_medal.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logding_error.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\logding_error.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_we_video_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_we_video_press.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_share.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_share.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_personal_left.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_personal_left.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_personal_topbg.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_personal_topbg.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_home_my_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_home_my_press.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_mayi.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_mayi.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_home_sort_tao.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_home_sort_tao.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_goods_details_btn_dianpu.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_goods_details_btn_dianpu.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/app_ico.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/app_ico.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pager3.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\pager3.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/rewardlevel1.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/rewardlevel1.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_heathy_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_heathy_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_delete.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/ic_delete.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_we_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_home_we_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_home_ask.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_home_ask.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_person.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_we_person.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_home_home_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_home_home_press.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\xlistview_arrow.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\xlistview_arrow.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/bmob_update_btn_check_off_pressed_holo_light.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/bmob_update_btn_check_off_pressed_holo_light.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_media.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_media.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_ask_buy.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_ask_buy.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_search.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_we_search.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_goods_details_shoucang_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_goods_details_shoucang_press.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_we_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_home_we_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_we_person.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_we_person.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_shopcar_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_home_shopcar_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/rewardlevel0.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/rewardlevel0.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pager1.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\pager1.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_qianbao.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_qianbao.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_bottom_pingjia.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_bottom_pingjia.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_home_ask_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_home_ask_press.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_beautiful_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_beautiful_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/error.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/error.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pager1.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\pager1.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/logding_error.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/logding_error.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_juhuasuan.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_juhuasuan.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/start_up.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/start_up.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_pub.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_home_pub.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_bottom_pingjia.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_bottom_pingjia.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_type.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_type.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_home_guangjie.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_home_guangjie.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_take_photo.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_home_take_photo.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/rewardlevel3.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/rewardlevel3.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_medal.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_we_medal.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_ask_child_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_ask_child_press.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_setting_shezhi.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_setting_shezhi.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_home_shopcar.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_home_shopcar.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\grils.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\grils.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_ask_hot.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_ask_hot.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_beautiful.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_beautiful.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_personal_topbg.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_personal_topbg.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_goods_details_shoucang_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_goods_details_shoucang_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/null_shop_car.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/null_shop_car.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_we.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_home_we.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_huiyuan.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_huiyuan.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_bottom_pingjia.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_bottom_pingjia.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/bmob_update_btn_check_off_focused_holo_light.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/bmob_update_btn_check_off_focused_holo_light.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_shoucang_baobei.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_shoucang_baobei.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_home_sort_chongzhi.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_home_sort_chongzhi.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_tuikuan.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_tuikuan.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_ask_hot_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_ask_hot_press.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_setting_about.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_setting_about.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_ask_buy_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_ask_buy_press.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_qianggou.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_home_qianggou.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_we_goods_new_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_we_goods_new_press.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_we.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_home_we.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_goods_details_shoucang.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_goods_details_shoucang.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_home.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_home_home.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_home_toutiao.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_home_toutiao.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_fix.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_fix.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_goods_details_btn_dianpu.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_goods_details_btn_dianpu.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_clothes.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_clothes.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_home_shopcar_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_home_shopcar_press.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_shopcar_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_home_shopcar_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_shoucang_neirong.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_shoucang_neirong.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\xiangj.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\xiangj.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_home_pub.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_home_pub.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_goods_details_kefu.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_goods_details_kefu.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_home_sort_market.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_home_sort_market.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_pay.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_pay.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_home_qianggou.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_home_qianggou.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_guanzhu.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_guanzhu.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_setting_shezhi.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_setting_shezhi.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_heathy.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_heathy.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_home_sort_tianmao.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_home_sort_tianmao.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_zuji.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_zuji.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/bookbag.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/bookbag.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_shangjia.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_shangjia.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_ask_child.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_ask_child.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_travel.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_travel.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/xiangj.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/xiangj.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_video_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_we_video_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/boy.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/boy.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_news_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_we_news_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_home_sort_waimai.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_home_sort_waimai.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_person_detials_code.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_person_detials_code.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_ask_beautiful.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_ask_beautiful.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_card.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_card.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_xiaomi.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_xiaomi.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_shopcar.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_home_shopcar.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_setting_xiaomi.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_setting_xiaomi.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pager3.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\pager3.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_home_msg.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_home_msg.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_setting_xiaomi.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_setting_xiaomi.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_we_news_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_we_news_press.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_fix_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_fix_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_ask_media_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_ask_media_press.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rewardlevel0.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\rewardlevel0.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_pay.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_pay.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pager5.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\pager5.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_home_my.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_home_my.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_kuaidi.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_kuaidi.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_home_sort_jinkou.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_home_sort_jinkou.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_pingjia.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_pingjia.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_home_we_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_home_we_press.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_ask.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_home_ask.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/pager3.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/pager3.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_goods_details_kefu.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_goods_details_kefu.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/grils.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/grils.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_pay.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_pay.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_goods_details_kefu.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_goods_details_kefu.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_personal_left.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_personal_left.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/bmob_update_btn_check_on_pressed_holo_light.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/bmob_update_btn_check_on_pressed_holo_light.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_goods_new_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_we_goods_new_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_home_right.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_home_right.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_my_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_home_my_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_setting_self.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_setting_self.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\line.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\line.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_home_haohuo.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_home_haohuo.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_news_hot_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_we_news_hot_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_shangjia.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_shangjia.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_news.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_we_news.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_ask_clothes.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_ask_clothes.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_buy_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_buy_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_mayi.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_mayi.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_my.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_home_my.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_setting_ziliao.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_setting_ziliao.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_video.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_we_video.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_shouhuo.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_shouhuo.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_tao.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_tao.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_ask_media.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_ask_media.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_shouhuo.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_shouhuo.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_home_we.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_home_we.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_tianmao.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_tianmao.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_ask.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_ask.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_person.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_we_person.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_we_msg.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_we_msg.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_up.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\start_up.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/rewardlevel2.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/rewardlevel2.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_on_focused_holo_light.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_on_focused_holo_light.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_setting_msg.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_setting_msg.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_news_hot_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_we_news_hot_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_share.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_share.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_hot_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_hot_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/pager1.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/pager1.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rewardlevel2.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\rewardlevel2.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_ask_heathy_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_ask_heathy_press.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_clothes_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_clothes_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_phone.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_phone.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_buy_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_buy_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_home_sort_type.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_home_sort_type.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_juhuasuan.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_juhuasuan.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_kuaidi.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_kuaidi.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\boy.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\boy.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_home_search.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_home_search.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\null_shop_car.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\null_shop_car.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/line.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/line.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rewardlevel0.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\rewardlevel0.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_home_sort_juhuasuan.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_home_sort_juhuasuan.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_setting_self.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_setting_self.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/pager2.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/pager2.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_type.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_type.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_home_home.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_home_home.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_share.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_share.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_we_search.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_we_search.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_chongzhi.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_chongzhi.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/bmob_update_close_bg_normal.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/bmob_update_close_bg_normal.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pager2.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\pager2.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_we_goods_new.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_we_goods_new.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rewardlevel1.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\rewardlevel1.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/xlistview_arrow.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/xlistview_arrow.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_setting_xiaomi.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_setting_xiaomi.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_home_scan.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_home_scan.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_msg.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_home_msg.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_zuji.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_zuji.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\love.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\love.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_quanzi.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_quanzi.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_daojia.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_daojia.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_ask_clothes_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_ask_clothes_press.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_close_bg_normal.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_close_bg_normal.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/bmob_update_btn_check_on_focused_holo_light.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/bmob_update_btn_check_on_focused_holo_light.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\app_ico.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\app_ico.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_home_sort_daojia.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_home_sort_daojia.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_xiaomi.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_xiaomi.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_home_take_photo.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_home_take_photo.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_close_bg_tap.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_close_bg_tap.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_home_sort_travel.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_home_sort_travel.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_on_focused_holo_light.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_on_focused_holo_light.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_goods_details_share.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_goods_details_share.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_goods_details_shoucang_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_goods_details_shoucang_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_fahuo.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_fahuo.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_news_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_we_news_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_setting_about.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_setting_about.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_on_holo_light.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_on_holo_light.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/pager4.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/pager4.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_child.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_child.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/love.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/love.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_off_focused_holo_light.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_off_focused_holo_light.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_we_news_hot.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_we_news_hot.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_goods_new.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_we_goods_new.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_ask_fix.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_ask_fix.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_hot.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_hot.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_tuikuan.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_tuikuan.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_phone.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_phone.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/loading.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/loading.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_buy.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_buy.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_we_medal_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_we_medal_press.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_beautiful_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_beautiful_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_setting_yinsi.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_setting_yinsi.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_shouhuo.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_shouhuo.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_home_qingdan.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_home_qingdan.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_daojia.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_daojia.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/bmob_update_btn_check_on_holo_light.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/bmob_update_btn_check_on_holo_light.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_jinkou.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_jinkou.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_we_news_hot_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_we_news_hot_press.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\app_ico.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\app_ico.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_order_add.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_order_add.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\null_shop_car.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\null_shop_car.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/pager5.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/pager5.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_pingjia.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_pingjia.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_we_video.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_we_video.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_fahuo.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_fahuo.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_ask_beautiful_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_ask_beautiful_press.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_search.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_we_search.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_shoucang_baobei.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_shoucang_baobei.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_qianggou.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_home_qianggou.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_card.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_card.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_jinkou.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_jinkou.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_my_guanzhu.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_my_guanzhu.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_personal_left.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_personal_left.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_ask_heathy.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_ask_heathy.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_toutiao.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_home_toutiao.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/frag_ask_fix_press.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/frag_ask_fix_press.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_heathy_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_heathy_press.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/bmob_update_close_bg_tap.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/bmob_update_close_bg_tap.png"
     },
     {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_kuaidi.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_kuaidi.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/act_person_detials_code.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/act_person_detials_code.png"
     },
     {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_pub.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_home_pub.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_travel.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_travel.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_news_hot.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_we_news_hot.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_search.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_home_search.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_home.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_home_home.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\loading.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_zuji.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_zuji.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_huiyuan.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_huiyuan.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_on_pressed_holo_light.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_on_pressed_holo_light.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_goods_details_btn_dianpu.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_goods_details_btn_dianpu.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_order_jian.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_order_jian.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_clothes.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_clothes.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_my.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_home_my.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_shopcar.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_home_shopcar.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_goods_new.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_we_goods_new.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_fix_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_fix_press.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_on_holo_light.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_on_holo_light.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_shangjia.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_shangjia.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_scan.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_home_scan.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pager4.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\pager4.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_tuikuan.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_tuikuan.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_quanzi.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_quanzi.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_fahuo.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_fahuo.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_goods_details_share.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_goods_details_share.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_off_pressed_holo_light.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_off_pressed_holo_light.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_waimai.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_waimai.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_hot.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_hot.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_child.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_child.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_qingdan.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_home_qingdan.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_msg.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_we_msg.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_ask.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_ask.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_right.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_home_right.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_clothes_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_clothes_press.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_order_add.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_order_add.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_off_holo_light.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_off_holo_light.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_setting_yinsi.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_setting_yinsi.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_goods_details_shoucang.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_goods_details_shoucang.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_video.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_we_video.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_child_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_child_press.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\xlistview_arrow.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\xlistview_arrow.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_medal_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_we_medal_press.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_msg.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_we_msg.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_off_holo_light.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_off_holo_light.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_close_bg_normal.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_close_bg_normal.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_on_pressed_holo_light.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_on_pressed_holo_light.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_setting_self.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_setting_self.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_order_add.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_order_add.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_setting_ziliao.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_setting_ziliao.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\loading.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_delete.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\ic_delete.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\error.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\error.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_quanzi.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_quanzi.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pager2.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\pager2.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rewardlevel3.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\rewardlevel3.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\boy.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\boy.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\love.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\love.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_up.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\start_up.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_setting_yinsi.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_setting_yinsi.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_buy.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_buy.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_order_jian.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_order_jian.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_close_bg_tap.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_close_bg_tap.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_toutiao.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_home_toutiao.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rewardlevel2.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\rewardlevel2.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_scan.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_home_scan.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bookbag.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\bookbag.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_fix.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_fix.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bookbag.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\bookbag.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_haohuo.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_home_haohuo.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_qianbao.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_qianbao.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_guanzhu.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_guanzhu.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rewardlevel1.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\rewardlevel1.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pager5.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\pager5.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_shoucang_baobei.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_shoucang_baobei.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_home_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_home_home_press.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_ask_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_home_ask_press.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_goods_new_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_we_goods_new_press.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pager4.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\pager4.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_haohuo.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_home_haohuo.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_personal_topbg.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_personal_topbg.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logding_error.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\logding_error.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_hot_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_hot_press.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_tianmao.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_tianmao.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\grils.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\grils.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_tao.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_tao.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_ask.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_home_ask.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_ask.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_ask.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_search.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_home_search.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_take_photo.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_home_take_photo.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_guangjie.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_home_guangjie.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_person_detials_code.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_person_detials_code.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rewardlevel3.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\rewardlevel3.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\xiangj.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\xiangj.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_delete.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\ic_delete.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_card.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_card.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_waimai.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_waimai.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_huiyuan.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_huiyuan.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_setting_msg.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_setting_msg.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_goods_details_shoucang.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_goods_details_shoucang.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_media_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_media_press.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\line.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\line.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_my_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_home_my_press.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_child_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_child_press.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_beautiful.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_beautiful.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_shoucang_neirong.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_shoucang_neirong.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_market.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_market.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_medal_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_we_medal_press.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_news.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_we_news.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_setting_shezhi.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_setting_shezhi.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_mayi.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_my_mayi.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_off_focused_holo_light.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_off_focused_holo_light.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_heathy.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_heathy.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_xiaomi.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_xiaomi.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_msg.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_home_msg.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_setting_ziliao.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_setting_ziliao.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_news_hot.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_we_news_hot.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_home_ask_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\act_home_ask_press.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bmob_update_btn_check_off_pressed_holo_light.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\bmob_update_btn_check_off_pressed_holo_light.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_right.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_home_right.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_guangjie.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_home_guangjie.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_goods_details_share.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_goods_details_share.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_video_press.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_we_video_press.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_media_press.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_media_press.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_market.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_market.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_ask_media.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_ask_media.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\act_setting_about.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\act_setting_about.png"
-    },
-    {
-        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_my_qianbao.png",
-        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\drawable-hdpi\\frag_my_qianbao.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_qingdan.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_home_qingdan.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_home_sort_chongzhi.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_home_sort_chongzhi.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_we_medal.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_we_medal.png"
-    },
-    {
-        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\frag_shoucang_neirong.png",
-        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\drawable-hdpi\\frag_shoucang_neirong.png"
+        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/drawable-hdpi/bmob_update_btn_check_off_holo_light.png",
+        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/drawable-hdpi/bmob_update_btn_check_off_holo_light.png"
     }
 ]

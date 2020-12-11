@@ -53,7 +53,7 @@ public interface Contracts {
             "locate=icon-10&spm=a215s.7406091.icons.10&scm=2027.1.2.1005&_s_nx_orange_key=catmap";
 
     //Bmob云APP_Key
-    String BMOB_APP_KEY = "3f741d79807d34592ed0bb166daac305";
+    String BMOB_APP_KEY = "4704a65c576098ab3ab4392300f60e11";
 
     //微信分享key
     String WX_APP_ID = "wxb9b8271eea5609b0";
