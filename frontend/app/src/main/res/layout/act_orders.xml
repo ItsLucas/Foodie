@@ -72,10 +72,10 @@
             android:id="@+id/act_order_tv_shouhuo_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/act_order_tv_top"
             android:layout_below="@+id/act_order_tv_top"
+            android:layout_alignStart="@+id/act_order_tv_top"
             android:layout_marginTop="19dp"
-            android:text="北京市昌平区玉荣教育园区"
+            android:text="北京市"
             android:textColor="@color/colorFont"
             android:textSize="18sp" />
 

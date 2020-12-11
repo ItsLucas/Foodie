@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/johnsnow/github/XTaobao-master/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
-        "source": "/Users/johnsnow/github/XTaobao-master/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "D:\\Users\\johnsnow\\github\\XTaobao-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "D:\\Androidstudio\\Foodie-master\\frontend\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]

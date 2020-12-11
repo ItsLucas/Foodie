@@ -1,4 +1,4 @@
-#Wed Dec 09 19:14:50 CST 2020
-base.0=/Users/johnsnow/github/XTaobao-master/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Thu Dec 10 20:43:17 GMT+08:00 2020
+base.0=D\:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=/Users/johnsnow/github/XTaobao-master/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=D\:\\Androidstudio\\Foodie-master\\frontend\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
