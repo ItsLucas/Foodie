@@ -8,6 +8,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.LinearLayout;
 
 
+import me.itslucas.foodie.MainActivity;
 import me.itslucas.foodie.R;
 
 
@@ -62,7 +63,7 @@ public class AnimationActivity extends AppCompatActivity {
             @Override
             public void onAnimationEnd(Animation animation) {
                 //第二个动画执行完之后跳转到登录
-                Intent intent = new Intent(me.itslucas.foodie.activities.AnimationActivity.this, ProfileActivity.class);
+                Intent intent = new Intent(me.itslucas.foodie.activities.AnimationActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
