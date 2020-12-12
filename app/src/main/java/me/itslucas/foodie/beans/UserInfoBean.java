@@ -7,7 +7,7 @@ public class UserInfoBean {
      * sex : m
      * birthday : 1999-09-24
      * cellno : 17621979129
-     * wxid : itslucas@itslucas.me
+     * email : itslucas@itslucas.me
      * passwd : 990924
      * cstatus : 0
      * fudou : 960
@@ -19,7 +19,7 @@ public class UserInfoBean {
     private String sex;
     private String birthday;
     private String cellno;
-    private String wxid;
+    private String email;
     private String passwd;
     private String cstatus;
     private String fudou;
@@ -65,12 +65,12 @@ public class UserInfoBean {
         this.cellno = cellno;
     }
 
-    public String getWxid() {
-        return wxid;
+    public String getEmail() {
+        return email;
     }
 
-    public void setWxid(String wxid) {
-        this.wxid = wxid;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getPasswd() {
