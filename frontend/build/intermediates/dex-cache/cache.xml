@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_1bc2ab3201412c79743bbba88d856f7103b7781f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.0/jars/libs/okio-1.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="bbeca71da43c8f4bc9ceedec002060f53437ad26">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/okio-1.7.0_af8b28eb0f4b9633bd78c1b6e4c9cfe735aae435.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_dbb6237d72e4cd24f3a4397ee5ddab64a8c00fd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/libs/bmobpay.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="02a7078b4fb655f1e5ab11714d0533e86ab8c713">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/bmobpay_6f7648ec5924c10469c4bf8ec0cdfe513eca1408.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_171f0215760b044b1ddd9f0fb1d4a8af88fae258.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_8ea3cde31728e95d2c56d6edc2585096f7cf2d11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.sunfusheng/marqueeview/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="208996e627414f3c924ee91376804a6f1c0901d6">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/com.sunfusheng-marqueeview-1.1.0_36d23dc5f46cf6274c9f1e69ebe2bd815b48b531.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_1187bb02d1d24130d47adf528b0456580114392f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-2.1.0_a5a1e6b72dfb17e9de57bd1105a9ee45222ad07d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_a7ac592d4129a9367374a51b9984a15eb7b871d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/XTaobao-master/iOS_Dialog_Library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="22effc1521200b7c535e5c3b1e38a94da05e0197">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/XTaobao-master-iOS_Dialog_Library-unspecified_c2bbbb73a07a365fa96bf2455b288d35240f9cc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_fe435b43ea7ed02cd4bbaecfb2e82cacb1d3af12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_a0bf0173a3716c8d60e794e7bc292e4fde67cabb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.0/jars/libs/rxjava-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ac615240b277e7fd3950d7b35f73b733f310cede">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/rxjava-1.1.6_65e1383bdd682c34072995b96b34fd423322a5f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_2e86643b4cd37f434654c498b134cf68c62ce0c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_6c3a00dacedd6a776e4dcbe7ef8f272d30ed1b2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.0/jars/libs/BmobSDK_3.5.0_20160630.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8eb5c605a02f792e326c5ac8e4feb2c18dd171ad">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/BmobSDK_3.5.0_20160630_208ba4c5d91cd7393b914452f817ace99faea8ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.0/jars/libs/gson-2.6.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="dd625f5e7bba8235782b5dc4244c3fd26953190f">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/gson-2.6.2_3ad61d8563e2a70004e39a5faea0f96d62f0ea8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_9ac94ca2e78fa504f56a34a95591668efa771b6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.2.1/8de3aafecbdf98a61db6427f008f2d515bcd2544/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_4daff58f9973152edc77108dad65e3e983e4a7d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e47f10299673ab68f24c595f96b18086cc9a8384">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/cn.bmob.android-bmob-sdk-3.5.0_90174e66bc0125c46a12894a6ce19c774d273eea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.0/jars/libs/okhttp-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e7cb33d9f82d3b8521c6594b180f4dd9fc6d49f2">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/okhttp-3.3.1_9d180b841c424ea6df3d2aa9e79b8f21071700d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_074107bf913aaa93005628ba3020eaba7d8b3f59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/kalelibrary/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fbc6aaaa90d58a55e16bfc7d2d1edfa6a06250c7">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-kalelibrary_2908093d302d484326bcbe76a5b40110cc6ad041.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/.gradle/caches/modules-2/files-2.1/cn.bmob.android/bmob-sms/1.0.1/df9db564e2842696a68deca39b0186aebf3dc07c/bmob-sms-1.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="df9db564e2842696a68deca39b0186aebf3dc07c">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/bmob-sms-1.0.1_d923789bfbdb276450f1f7b249138fd8464263dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_a27e326640e0a915b2b3e6b25cd00b1a5ab99974.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_8bc8501dcf18a7bf5bddbd79940c74e3af44a400.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_51c20153685135129326364dcc6179f78ca3bd85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.baoyz.swipemenulistview/library/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8ec8378e8d7aa3104f60823e6350f2728d3609ba">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/com.baoyz.swipemenulistview-library-1.3.0_9a4f50050b86330e9732711417d1bb63a499b6ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/.gradle/caches/modules-2/files-2.1/cn.bmob.android/http-legacy/1.0/5320fd78dd7f154e586970d4f02befc9b58432aa/http-legacy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5320fd78dd7f154e586970d4f02befc9b58432aa">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/http-legacy-1.0_dfd6ec818296aac0267d813650968da3235c618c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_2c364a714ebdd4321c8ffcfc04ae4574f15ae180.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.jude/rollviewpager/1.2.9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9229a89cbb43d66d573e975cc3fdab425bec4372">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/com.jude-rollviewpager-1.2.9_54b9339320b1c3061300f08b88005bd7cb7d7c9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/glide-3.7.0_3e338d1664e35793ad5b11e71c9db7e5b3f0e50f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_0f52a8d98f908190aad66ccc0e8e681dde5ac443.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_f0ae4b31221a1fb47fd08e68c92e96ab0bcc3d6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/libs/libammsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c1f63f70671d69ee38379728e1192db82e289246">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/libammsdk_307954e3278bd9ee51a2d492f8ffafbc71fbb0ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/cn.bmob.android/bmob-sdk/3.5.0/jars/libs/rxandroid-1.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="19beef6debb6a22febc28777464c71bfccbafe3d">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/rxandroid-1.2.0_c5b175e51bf4a96d92a5142b24d2bb34e73b2b08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/johnsnow/github/XTaobao-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_bba3005489409b1865d71704c3560b0e195770f4.jar" />
+    </item>
+
+</items>
