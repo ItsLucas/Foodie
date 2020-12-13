@@ -99,4 +99,8 @@
 
     <!--购物车界面-->
     <color name="blue_button">#ff387ef5</color>
+    <color name="TextColor">#6F563B</color>
+    <color name="TextColor_night">#3b3b3b</color>
+    <color name="LogoColor">#D55A5A</color>
+    <color name="LogoColor_night">#696969</color>
 </resources>
