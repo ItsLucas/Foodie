@@ -223,4 +223,10 @@
         android:layout_height="1dp"
         android:background="@color/colorLine" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Search(For test)" />
+
 </LinearLayout>
