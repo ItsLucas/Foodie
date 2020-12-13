@@ -1,4 +1,4 @@
-package me.itslucas.foodie.dashboard;
+package me.itslucas.foodie.Fragment.dashboard;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

@@ -1,4 +1,4 @@
-package me.itslucas.foodie.notifications;
+package me.itslucas.foodie.Fragment.notifications;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
