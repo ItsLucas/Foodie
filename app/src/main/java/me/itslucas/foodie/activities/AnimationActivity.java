@@ -63,7 +63,7 @@ public class AnimationActivity extends AppCompatActivity {
             @Override
             public void onAnimationEnd(Animation animation) {
                 //第二个动画执行完之后跳转到登录
-                Intent intent = new Intent(me.itslucas.foodie.activities.AnimationActivity.this, MainActivity.class);
+                Intent intent = new Intent(me.itslucas.foodie.activities.AnimationActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }
