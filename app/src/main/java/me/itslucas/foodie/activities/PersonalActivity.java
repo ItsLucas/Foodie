@@ -15,6 +15,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 
 import me.itslucas.foodie.R;
+import me.itslucas.foodie.UserData;
 
 
 public class PersonalActivity extends AppCompatActivity {
@@ -73,9 +74,9 @@ public class PersonalActivity extends AppCompatActivity {
         mNameText.setText(userName);
 
         //修改layout
-        mAccount.setText(account);
-        mUserNameText.setText(userName);
-        mPasswordText.setText(password);
+        mAccount.setText(UserData.cid);
+        mUserNameText.setText("Username");
+        mPasswordText.setText("new password");
 
         //设置到默认头像
         mImageView.setImageDrawable(getResources().getDrawable(R.drawable.cutecat));

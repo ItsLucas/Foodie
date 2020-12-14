@@ -17,6 +17,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import me.itslucas.foodie.R;
+import me.itslucas.foodie.UserData;
 import me.itslucas.foodie.activities.AboutUsActivity;
 import me.itslucas.foodie.activities.BuyHistoryActivity;
 import me.itslucas.foodie.activities.PersonalActivity;
@@ -43,7 +44,7 @@ public class NotificationsFragment extends Fragment {
         //初始化控件并设置点击事件
         mImageView = view.findViewById(R.id.cat_avatar);
         mName = view.findViewById(R.id.cat_title);
-
+        mName.setText(UserData.cid);
         //获得context
         Context context = getActivity().getApplicationContext();
         //设置到默认头像

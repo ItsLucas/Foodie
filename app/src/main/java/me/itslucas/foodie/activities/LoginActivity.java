@@ -46,8 +46,9 @@ public class LoginActivity extends AppCompatActivity{
             String url = "https://foodie.itslucas.me/authenticate.php?username=" + u + "&password=" + p;
             StringRequest request = new StringRequest(url, response -> {
                 MessageBean msg = new Gson().fromJson(response,MessageBean.class);
-                if(!msg.getMsg().contains("Incorrect")) {
+                if(!msg.getMsg().equalsIgnoreCase("Incorrect username")) {
                     UserData.cid = msg.getMsg();
+                    Log.i("Login","cid: "+UserData.cid);
                     new Thread(() -> EMClient.getInstance().login(u, p, new EMCallBack() {
                         @Override
                         public void onSuccess() {
