@@ -22,6 +22,7 @@ import com.hyphenate.chat.EMClient;
 
 import me.itslucas.foodie.MainActivity;
 import me.itslucas.foodie.R;
+import me.itslucas.foodie.UserData;
 import me.itslucas.foodie.activities.fzr.SearchActivity;
 import me.itslucas.foodie.activities.fzr.SelectProductActivity;
 import me.itslucas.foodie.beans.MessageBean;
@@ -45,8 +46,8 @@ public class LoginActivity extends AppCompatActivity{
             String url = "https://foodie.itslucas.me/authenticate.php?username=" + u + "&password=" + p;
             StringRequest request = new StringRequest(url, response -> {
                 MessageBean msg = new Gson().fromJson(response,MessageBean.class);
-                if(msg.getMsg().equalsIgnoreCase("Success")) {
-
+                if(!msg.getMsg().contains("Incorrect")) {
+                    UserData.cid = msg.getMsg();
                     new Thread(() -> EMClient.getInstance().login(u, p, new EMCallBack() {
                         @Override
                         public void onSuccess() {
