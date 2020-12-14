@@ -33,7 +33,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodie">
-<<<<<<< HEAD
         <activity android:name=".activities.fzr.childpage.ProductDetail"></activity>
         <activity android:name=".activities.fzr.SelectProductActivity"></activity>
         <activity android:name=".activities.fzr.childpage.BuyResultActivity" />
@@ -41,14 +40,11 @@
             android:name=".activities.fzr.CartActivity"
             android:noHistory="true" />
         <activity android:name=".activities.fzr.SearchActivity" />
+
         <activity
-            android:name=".activities.ProfileActivity"
-            android:label="@string/app_name">
-=======
-        <activity       android:name="me.itslucas.foodie.activities.AnimationActivity"
+            android:name="me.itslucas.foodie.activities.AnimationActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
->>>>>>> f87a7ac93aea7c7b98cf8c5c2668bff5222b6e22
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -62,7 +58,12 @@
         <activity
             android:name="me.itslucas.foodie.activities.RegisterActivity"/>
         <activity
-            android:name="me.itslucas.foodie.activities.ProfileActivity"/>
+            android:name="me.itslucas.foodie.activities.AboutUsActivity"/>
+        <activity
+            android:name="me.itslucas.foodie.activities.SettingActivity"/>
+        <activity
+            android:name="me.itslucas.foodie.activities.SoftwareSettingActivity"/>
+
         <activity android:name=".ChatActivity"></activity>
         <!-- 设置环信应用的AppKey -->
         <meta-data
