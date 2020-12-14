@@ -87,6 +87,9 @@
     <!--搜索详情页面-->
     <color name="red_normal">#FF0000</color>
 
+    <color name="bg_color">#f1f1f1</color>
+
+
     <!--搜索界面-->
     <color name="lineColor">#ff4081</color>
     <color name="white_pressed">#FFCFCFCF</color>
