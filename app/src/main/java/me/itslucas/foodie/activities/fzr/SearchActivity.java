@@ -1,25 +1,20 @@
-package me.itslucas.foodie.activities;
+package me.itslucas.foodie.activities.fzr;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.ColorUtils;
 
-import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.SearchView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;
@@ -31,8 +26,6 @@ import java.util.Set;
 
 import me.itslucas.foodie.R;
 
-import static android.content.SearchRecentSuggestionsProvider.DATABASE_MODE_QUERIES;
-
 public class SearchActivity extends AppCompatActivity {
 
     SearchView mSearchView;
@@ -41,6 +34,7 @@ public class SearchActivity extends AppCompatActivity {
     TextView tv;
     ChipGroup cg;
     boolean eyeFlag = true;
+
     ChipGroup historychips;
     SharedPreferences sp;
     SharedPreferences.Editor spe;
@@ -55,7 +49,6 @@ public class SearchActivity extends AppCompatActivity {
         //初始化listview
         //定义一个HashMap构成的列表以键值对的方式存放数据
         ArrayList<HashMap<String, Object>> listItem = new ArrayList<HashMap<String, Object>>();
-        //循环填充数据
         String[] name = new String[]{
                 "桂花梅子酒", "猕猴桃", "薯片", "桂花梅子酒", "猕猴桃"};
         for (int i = 0; i < name.length; i++) {
@@ -104,6 +97,7 @@ public class SearchActivity extends AppCompatActivity {
         sp = getSharedPreferences("history", MODE_PRIVATE);
         spe = sp.edit();
 
+
         mSearchView.setSubmitButtonEnabled(true);
 
         mSearchView.setQueryHint("桂花梅子酒");
@@ -143,7 +137,7 @@ public class SearchActivity extends AppCompatActivity {
 
                 Chip c = new Chip(SearchActivity.this);
                 c.setText(query);
-                historychips.addView(c);
+                historychips.addView(c,0);
                 return true;
             }
 

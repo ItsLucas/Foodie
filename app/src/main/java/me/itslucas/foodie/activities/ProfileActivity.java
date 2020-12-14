@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.widget.Button;
 
 import me.itslucas.foodie.R;
+import me.itslucas.foodie.activities.fzr.SelectProductActivity;
+import me.itslucas.foodie.activities.fzr.childpage.ProductDetail;
+
 public class ProfileActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,9 +17,9 @@ public class ProfileActivity extends AppCompatActivity{
         setContentView(R.layout.activity_profile);
 
         Button b = findViewById(R.id.button);
-
+        b.setText("开商品选购页（测试用");
         b.setOnClickListener((v)->{
-            Intent i = new Intent(this,SearchActivity.class);
+            Intent i = new Intent(this, SelectProductActivity.class);
             startActivity(i);
         });
     }

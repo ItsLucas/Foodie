@@ -5,5 +5,5 @@
     <!-- 填充色 -->
     <solid android:color="@color/white"/>
     <!-- 描边 设置线宽及颜色 -->
-    <stroke android:color="@color/black" android:width="0.5dp"/>
+<!--    <stroke android:color="@color/black" android:width="0.5dp"/>-->
 </shape>
