@@ -10,6 +10,7 @@ public class fzr_constant {
     public static List<CartBean> cartList;
     public static String userID;
     public static Float userBalance=5000.0f;
+    public static int priceAll = 0;
 
 
     public static String getProductIdByName(String name) {

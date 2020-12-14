@@ -57,6 +57,7 @@ public class ProductDetail extends AppCompatActivity {
             switch (msg.what) {
                 case 1:
                     pb.setVisibility(View.GONE);
+                    Toast.makeText(getApplicationContext(),"已添加!",Toast.LENGTH_SHORT).show();
                     break;
                 case 0:
                     pb.setVisibility(View.VISIBLE);
@@ -165,7 +166,7 @@ public class ProductDetail extends AppCompatActivity {
 
 
                         mHandler.sendEmptyMessage(1);
-                        Toast.makeText(getApplicationContext(),"已添加!",Toast.LENGTH_SHORT).show();
+
 
                     } catch (IOException e) {
                         e.printStackTrace();

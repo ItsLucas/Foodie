@@ -23,8 +23,6 @@ import com.alibaba.fastjson.TypeReference;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
 
 import me.itslucas.foodie.R;
@@ -32,7 +30,6 @@ import me.itslucas.foodie.activities.fzr.childpage.BuyResultActivity;
 import me.itslucas.foodie.activities.fzr.childpage.CartListViewAdapter;
 import me.itslucas.foodie.activities.fzr.childpage.fzr_constant;
 import me.itslucas.foodie.beans.CartBean;
-import me.itslucas.foodie.beans.ProductsBean;
 import okhttp3.Call;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;

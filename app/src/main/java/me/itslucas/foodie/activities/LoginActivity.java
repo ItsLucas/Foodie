@@ -43,11 +43,11 @@ public class LoginActivity extends AppCompatActivity{
         TextView username = findViewById(R.id.input_mobile);
         TextView password = findViewById(R.id.input_password);
         login.setOnClickListener(v -> {
-//            String u = username.getText().toString();
-//            String p = password.getText().toString();
-
             String u = "roakee";
             String p = "123456";
+
+
+
             String url = "https://foodie.itslucas.me/authenticate.php?username=" + u + "&password=" + p;
             StringRequest request = new StringRequest(url, response -> {
                 MessageBean msg = new Gson().fromJson(response,MessageBean.class);
@@ -81,7 +81,7 @@ public class LoginActivity extends AppCompatActivity{
                         }
                     })).start();
                     fzr_constant.userID = msg.getMsg();
-                    Intent intent = new Intent(LoginActivity.this, SelectProductActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(intent);
                 }
                 else {

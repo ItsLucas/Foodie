@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import me.itslucas.foodie.Fragment.dashboard.DashboardFragment;
 import me.itslucas.foodie.R;
 import me.itslucas.foodie.activities.fzr.CartActivity;
 import me.itslucas.foodie.activities.fzr.SearchActivity;
@@ -21,7 +22,7 @@ public class CartListViewAdapter extends BaseAdapter implements ListAdapter {
     private ArrayList<String> numList = new ArrayList<String>();
     private Context context;
     private double totalPrice;
-
+    int firstFlag = 0;
     public CartListViewAdapter(ArrayList<String> nameList, ArrayList<String> numList, Context context) {
         this.nameList = nameList;
         this.numList = numList;
@@ -81,7 +82,7 @@ public class CartListViewAdapter extends BaseAdapter implements ListAdapter {
         Button br = (Button) view.findViewById(R.id.cart_listview_buttonr);
 
 
-        totalPrice+=Integer.parseInt(price.getText().toString())*Integer.parseInt(num.getText().toString());
+
 
         bp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -89,19 +90,17 @@ public class CartListViewAdapter extends BaseAdapter implements ListAdapter {
 
 
                 num.setText(Integer.parseInt(num.getText().toString())+1+"");
-                totalPrice+=Integer.parseInt((price.getText().toString()));
 
-                CartActivity.setTotalPrice(totalPrice+"");
+                DashboardFragment.changeTotalPrice(Integer.parseInt((price.getText().toString())));
             }
         });
         br.setOnClickListener((v) -> {
 
             num.setText(Integer.parseInt(num.getText().toString())-1+"");
-            totalPrice-=Integer.parseInt((price.getText().toString()));
-            CartActivity.setTotalPrice(totalPrice+"");
+            DashboardFragment.changeTotalPrice(-Integer.parseInt((price.getText().toString())));
         });
 
-        CartActivity.setTotalPrice(totalPrice+"");
+
 
         return view;
     }

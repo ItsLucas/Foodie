@@ -1,12 +1,16 @@
 package me.itslucas.foodie;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.view.Window;
 
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMOptions;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -27,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupWithNavController(navView, navController);
+        ActionBar actionBar = getSupportActionBar();
+        ColorDrawable cd = new ColorDrawable(Color.parseColor("#EE756D"));
+
+        Window window = this.getWindow();
+        window.setStatusBarColor(Color.parseColor("#EE756D"));
     }
     protected void initIM() {
         EMOptions options = new EMOptions();

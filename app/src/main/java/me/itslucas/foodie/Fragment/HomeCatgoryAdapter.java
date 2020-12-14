@@ -113,16 +113,16 @@ public class HomeCatgoryAdapter extends RecyclerView.Adapter<HomeCatgoryAdapter.
                         //TODO: middle
                         Intent i = new Intent(mContext, SelectProductActivity.class);
                         mContext.startActivity(i);
-                        Toast.makeText(v.getContext(), category.getCtBig().getName(),Toast.LENGTH_LONG).show();
+//                        Toast.makeText(v.getContext(), category.getCtBig().getName(),Toast.LENGTH_LONG).show();
 
                         break;
                     case  R.id.imgview_small_top:
                         mListener.onClick(v,category.getCtStop());
-                        Toast.makeText(v.getContext(), category.getCtStop().getName(),Toast.LENGTH_LONG).show();
+//                        Toast.makeText(v.getContext(), category.getCtStop().getName(),Toast.LENGTH_LONG).show();
                         break;
                     case R.id.imgview_small_bottom:
                         mListener.onClick(v,category.getCtSbom());
-                        Toast.makeText(v.getContext(), category.getCtSbom().getName(),Toast.LENGTH_LONG).show();
+//                        Toast.makeText(v.getContext(), category.getCtSbom().getName(),Toast.LENGTH_LONG).show();
                         break;
                 }
 
