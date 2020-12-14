@@ -90,7 +90,7 @@ public class ProductGridViewAdapter extends BaseAdapter implements ListAdapter {
             Bundle bundle = new Bundle();
             bundle.putString("name",name.getText().toString());
             bundle.putString("price",price.getText().toString());
-            bundle.putInt("pic",);
+            bundle.putInt("pic",getPicByName(name.getText().toString()));
             i.putExtras(bundle);
             //这一行加了没用，不加闪退
             i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

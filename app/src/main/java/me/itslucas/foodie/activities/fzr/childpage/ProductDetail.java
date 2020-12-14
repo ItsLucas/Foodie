@@ -38,9 +38,11 @@ public class ProductDetail extends AppCompatActivity {
         Bundle b = this.getIntent().getExtras();
         String proName = "null";
         String proPrice = "null";
+        int picId = 0;
         if(b!=null){
             proName = b.getString("name");
             proPrice = b.getString("price");
+            picId = b.getInt("pic");
         }
 
 
@@ -62,7 +64,8 @@ public class ProductDetail extends AppCompatActivity {
         tv_name.setText(proName);
         tv_price.setText(proPrice);
 
-        RoundedBitmapDrawable circularBitmapDrawable = RoundedBitmapDrawableFactory.create(this.getResources(), BitmapFactory.decodeResource(this.getResources(), R.drawable.kiwi));
+
+        RoundedBitmapDrawable circularBitmapDrawable = RoundedBitmapDrawableFactory.create(this.getResources(), BitmapFactory.decodeResource(this.getResources(), picId));
         circularBitmapDrawable.setCornerRadius(50);
         imv.setImageDrawable(circularBitmapDrawable);
         ib_back.setOnClickListener((v)->{
