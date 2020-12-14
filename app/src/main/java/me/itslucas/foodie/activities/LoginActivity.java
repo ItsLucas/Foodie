@@ -22,6 +22,8 @@ import com.hyphenate.chat.EMClient;
 
 import me.itslucas.foodie.MainActivity;
 import me.itslucas.foodie.R;
+import me.itslucas.foodie.activities.fzr.SearchActivity;
+import me.itslucas.foodie.activities.fzr.SelectProductActivity;
 import me.itslucas.foodie.beans.MessageBean;
 
 public class LoginActivity extends AppCompatActivity{
@@ -84,7 +86,8 @@ public class LoginActivity extends AppCompatActivity{
         signupLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
+                //Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
+                Intent intent = new Intent(getApplicationContext(), SearchActivity.class);
                 startActivity(intent);
                 finish();
                 overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);

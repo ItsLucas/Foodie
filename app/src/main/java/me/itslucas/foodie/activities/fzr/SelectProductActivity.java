@@ -60,7 +60,7 @@ public class SelectProductActivity extends AppCompatActivity {
 
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+        //actionBar.hide();
 
 
         ibBack = findViewById(R.id.ib_spa_back);

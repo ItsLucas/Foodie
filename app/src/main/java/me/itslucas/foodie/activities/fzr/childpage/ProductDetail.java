@@ -47,7 +47,7 @@ public class ProductDetail extends AppCompatActivity {
 
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+        //actionBar.hide();
 
         ib_back=findViewById(R.id.apd_back);
         imv =findViewById(R.id.apd_pic);

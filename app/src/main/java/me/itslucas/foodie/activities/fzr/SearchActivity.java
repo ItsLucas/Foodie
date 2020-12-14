@@ -83,7 +83,7 @@ public class SearchActivity extends AppCompatActivity {
         window.setStatusBarColor(Color.parseColor("#FDC20E"));
         window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
         window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
 
         //==========================================
         // 获取控件
@@ -154,6 +154,7 @@ public class SearchActivity extends AppCompatActivity {
         //显示历史记录
         Set<String> temp = new HashSet<>();
         temp = sp.getStringSet("history", null);
+        if(temp!=null)
         for (String s : temp) {
             Chip c = new Chip(SearchActivity.this);
             c.setText(s);

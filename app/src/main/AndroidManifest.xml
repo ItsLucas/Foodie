@@ -33,9 +33,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodie">
-        <activity android:name=".activities.fzr.childpage.ProductDetail"></activity>
-        <activity android:name=".activities.fzr.SelectProductActivity"></activity>
-        <activity android:name=".activities.fzr.childpage.BuyResultActivity" />
+        <activity android:name=".activities.fzr.childpage.ProductDetail" android:exported="true"></activity>
+        <activity android:name=".activities.fzr.SelectProductActivity" android:exported="true"></activity>
+        <activity android:name=".activities.fzr.childpage.BuyResultActivity" android:exported="true" />
         <activity
             android:name=".activities.fzr.CartActivity"
             android:noHistory="true" />
