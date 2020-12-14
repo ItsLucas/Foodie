@@ -75,8 +75,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="账号"
-                    android:inputType="number"
-                    android:textColor="@color/jet"/>
+                    android:inputType="text"
+                    android:textColor="@color/jet" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!--  密码 标签 -->
