@@ -41,9 +41,11 @@ public class BuyResultActivity extends AppCompatActivity {
         Bundle bundle2 = this.getIntent().getExtras();
         Float price = bundle2.getFloat("price");
         UserInfoBean user = new UserInfoBean();
-        if(price>200){
+        if(price>fzr_constant.userBalance){
             imv.setImageResource(R.drawable.wrong);
             tv.setText("余额不足！购买失败");
+        }else{
+            fzr_constant.userBalance-=price;
         }
 
     }

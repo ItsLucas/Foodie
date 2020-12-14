@@ -25,6 +25,7 @@ import me.itslucas.foodie.MainActivity;
 import me.itslucas.foodie.R;
 import me.itslucas.foodie.activities.fzr.CartActivity;
 import me.itslucas.foodie.activities.fzr.SearchActivity;
+import me.itslucas.foodie.activities.fzr.SelectProductActivity;
 import me.itslucas.foodie.activities.fzr.childpage.fzr_constant;
 import me.itslucas.foodie.beans.MessageBean;
 
@@ -80,7 +81,7 @@ public class LoginActivity extends AppCompatActivity{
                         }
                     })).start();
                     fzr_constant.userID = msg.getMsg();
-                    Intent intent = new Intent(LoginActivity.this, CartActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, SelectProductActivity.class);
                     startActivity(intent);
                 }
                 else {

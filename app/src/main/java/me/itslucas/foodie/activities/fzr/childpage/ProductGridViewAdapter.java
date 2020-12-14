@@ -3,6 +3,9 @@ package me.itslucas.foodie.activities.fzr.childpage;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,16 +13,37 @@ import android.widget.BaseAdapter;
 import android.widget.ImageButton;
 import android.widget.ListAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 import me.itslucas.foodie.R;
+import me.itslucas.foodie.activities.fzr.SelectProductActivity;
+import okhttp3.Call;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 
 public class ProductGridViewAdapter extends BaseAdapter implements ListAdapter {
     private ArrayList<String> nameList = new ArrayList<String>();
     private ArrayList<String> priceList = new ArrayList<String>();
     private int picId;
     private Context context;
+    private Handler mHandler = new Handler() {
+        public void handleMessage(Message msg) {
+            switch (msg.what) {
+                case 1:
+                    SelectProductActivity.setPb(true);
+                    break;
+                case 0:
+                    SelectProductActivity.setPb(false);
+                    Toast.makeText(context,"添加成功!",Toast.LENGTH_SHORT).show();
+                    break;
+            }
+
+        }
+    };
 
     public ProductGridViewAdapter(ArrayList<String> nameList,ArrayList<String> priceList, Context context) {
         this.nameList = nameList;
@@ -68,7 +92,12 @@ public class ProductGridViewAdapter extends BaseAdapter implements ListAdapter {
 
         //Handle buttons and add onClickListeners
         ImageButton addCart = view.findViewById(R.id.sgi_addcart);
-        addCart.setImageResource(R.drawable.ic_emptycart);
+        if(fzr_constant.isInCart(name.getText().toString())){
+            addCart.setImageResource(R.drawable.ic_fullcart);
+        }else{
+            addCart.setImageResource(R.drawable.ic_emptycart);
+        }
+
         addCart.setTag(R.id.sgi_addcart,1);
         addCart.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,11 +106,35 @@ public class ProductGridViewAdapter extends BaseAdapter implements ListAdapter {
                 if((int)addCart.getTag(R.id.sgi_addcart)==1){
                     addCart.setImageResource(R.drawable.ic_fullcart);
                     addCart.setTag(R.id.sgi_addcart,0);
-                }else{
-                    addCart.setImageResource(R.drawable.ic_emptycart);
-                    addCart.setTag(R.id.sgi_addcart,1);
                 }
 
+                OkHttpClient httpClient = new OkHttpClient();
+
+                String pid = fzr_constant.getProductIdByName(name.getText().toString());
+
+                String url = "https://foodie.itslucas.me/cart.php?id="+fzr_constant.userID+"&product_id="+pid+"&quantity=1";
+                Log.i("res",url);
+                Request getRequest = new Request.Builder()
+                        .url(url)
+                        .get()
+                        .build();
+
+                Call call = httpClient.newCall(getRequest);
+
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            mHandler.sendEmptyMessage(1);
+                            Response response = call.execute();
+                            String res = response.body().string();
+                            Log.i("res",res);
+                            mHandler.sendEmptyMessage(0);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }).start();
             }
         });
         pic.setOnClickListener((v)->{

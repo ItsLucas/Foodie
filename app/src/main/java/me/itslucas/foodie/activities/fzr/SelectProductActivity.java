@@ -37,7 +37,7 @@ public class SelectProductActivity extends AppCompatActivity {
     ImageButton ibBack;
     ImageButton ibMenu;
     GridView gv;
-    ProgressBar pb;
+    static ProgressBar pb;
     ProductGridViewAdapter pgva;
     ArrayList<String> nameList = new ArrayList<String>();
     ArrayList<String> priceList = new ArrayList<String>();
@@ -125,6 +125,14 @@ public class SelectProductActivity extends AppCompatActivity {
         gv.setAdapter(pgva);
 
 
+    }
+
+    public static void setPb(boolean b){
+        if(b){
+            pb.setVisibility(View.VISIBLE);
+        }else{
+            pb.setVisibility(View.GONE);
+        }
     }
 
 
