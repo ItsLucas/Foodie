@@ -33,9 +33,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodie">
-<<<<<<< HEAD
-        <activity android:name=".activities.fzr.childpage.ProductDetail"></activity>
-        <activity android:name=".activities.fzr.SelectProductActivity"></activity>
+
+        <activity android:name=".activities.fzr.childpage.ProductDetail" />
+        <activity android:name=".activities.fzr.SelectProductActivity" />
         <activity android:name=".activities.fzr.childpage.BuyResultActivity" />
         <activity
             android:name=".activities.fzr.CartActivity"
@@ -43,12 +43,13 @@
         <activity android:name=".activities.fzr.SearchActivity" />
         <activity
             android:name=".activities.ProfileActivity"
-            android:label="@string/app_name">
-=======
+            android:label="@string/app_name"/>
+
         <activity       android:name="me.itslucas.foodie.activities.AnimationActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
->>>>>>> f87a7ac93aea7c7b98cf8c5c2668bff5222b6e22
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -61,9 +62,7 @@
             android:name="me.itslucas.foodie.activities.LoginActivity"/>
         <activity
             android:name="me.itslucas.foodie.activities.RegisterActivity"/>
-        <activity
-            android:name="me.itslucas.foodie.activities.ProfileActivity"/>
-        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".ChatActivity" />
         <!-- 设置环信应用的AppKey -->
         <meta-data
             android:name="EASEMOB_APPKEY"

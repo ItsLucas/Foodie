@@ -127,6 +127,7 @@
         app:layout_constraintVertical_bias="0.12" />
 
     <com.google.android.material.chip.ChipGroup
+
         android:id="@+id/chip_group"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -137,25 +138,27 @@
         app:layout_constraintHorizontal_bias="0.343"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view"
+        app:selectionRequired="true"
+        app:singleSelection="true"
         app:layout_constraintVertical_bias="0.0">
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="蜂蜜柚子茶" />
+            android:text="桂花梅子酒" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="猕猴桃" />
+            android:text="梅林午餐肉" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="西瓜" />
+            android:text="蔓越莓干" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip4"
@@ -166,7 +169,7 @@
             android:id="@+id/chip6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="哇哈哈" />
+            android:text="梅尼耶干蛋糕" />
 
     </com.google.android.material.chip.ChipGroup>
 

@@ -14,6 +14,7 @@ import java.util.ArrayList;
 
 import me.itslucas.foodie.R;
 import me.itslucas.foodie.activities.fzr.CartActivity;
+import me.itslucas.foodie.activities.fzr.SearchActivity;
 
 public class CartListViewAdapter extends BaseAdapter implements ListAdapter {
     private ArrayList<String> nameList = new ArrayList<String>();
@@ -55,11 +56,13 @@ public class CartListViewAdapter extends BaseAdapter implements ListAdapter {
             view = inflater.inflate(R.layout.cart_listview_item, null);
         }
 
-        ImageView pic = view.findViewById(R.id.cart_listview_pic);
-        pic.setImageResource(R.drawable.guihua);
-
         TextView name = (TextView) view.findViewById(R.id.cart_listview_name);
         name.setText(nameList.get(position));
+
+        ImageView pic = view.findViewById(R.id.cart_listview_pic);
+        pic.setImageResource(SearchActivity.getPicByName(name.getText().toString()));
+
+
 
         TextView type = (TextView) view.findViewById(R.id.cart_listview_type);
         type.setText("水果");
@@ -68,7 +71,7 @@ public class CartListViewAdapter extends BaseAdapter implements ListAdapter {
         sign.setText("￥");
 
         TextView price = (TextView) view.findViewById(R.id.cart_listview_price);
-        price.setText("30");
+        price.setText(getPriceByName(name.getText().toString()));
 
         TextView num = view.findViewById(R.id.cart_listview_num);
         num.setText(numList.get(position));
@@ -101,5 +104,31 @@ public class CartListViewAdapter extends BaseAdapter implements ListAdapter {
         CartActivity.setTotalPrice(totalPrice+"");
 
         return view;
+    }
+    private String getPriceByName(String s) {
+        if(s.equals("猕猴桃")){
+            return "32";
+        }else if (s.equals("桂花梅子酒")){
+            return "100";
+        }else if(s.equals("鸡肉丸")){
+            return "50";
+        }else if(s.equals("榴莲腰果")){
+            return "20";
+        }else if(s.equals("咸蛋黄小饼干")){
+            return "8";
+        }else if(s.equals("蔓越莓干")){
+            return "22";
+        }else if(s.equals("梅尼耶干蛋糕")){
+            return "15";
+        }else if(s.equals("岩烧乳酪面包")){
+            return "35";
+        }else if(s.equals("蛋黄酥")){
+            return "25";
+        }else if(s.equals("植物牛肉")){
+            return "35";
+        }else if(s.equals("梅林午餐肉")){
+            return "75";
+        }
+        return "";
     }
 }

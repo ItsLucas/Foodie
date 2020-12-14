@@ -25,7 +25,7 @@ public class BuyResultActivity extends AppCompatActivity {
 
         ActionBar actionBar = getSupportActionBar();
         ColorDrawable cd = new ColorDrawable(Color.parseColor("#EE756D"));
-        actionBar.setBackgroundDrawable(cd);
+//        actionBar.setBackgroundDrawable(cd);
         Window window = this.getWindow();
         window.setStatusBarColor(Color.parseColor("#EE756D"));
         if (actionBar != null) {

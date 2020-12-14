@@ -2,42 +2,74 @@ package me.itslucas.foodie.activities.fzr;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.TypeReference;
+
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 import me.itslucas.foodie.R;
 import me.itslucas.foodie.activities.fzr.childpage.BuyResultActivity;
 import me.itslucas.foodie.activities.fzr.childpage.CartListViewAdapter;
+import me.itslucas.foodie.activities.fzr.childpage.fzr_constant;
+import me.itslucas.foodie.beans.CartBean;
+import me.itslucas.foodie.beans.ProductsBean;
+import okhttp3.Call;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 
 public class CartActivity extends AppCompatActivity {
 
     static TextView totalPrice;
     Button placeOrder;
+    Toolbar tb;
+    ArrayList<String> nameList = new ArrayList<String>();
+    ArrayList<String> numList = new ArrayList<String>();
+    CartListViewAdapter clva;
+    ProgressBar pb;
+    private Handler mHandler = new Handler() {
+        public void handleMessage(Message msg) {
+            switch (msg.what) {
+                case 1:
+                    clva.notifyDataSetChanged();
+                    pb.setVisibility(View.GONE);
+                    break;
+            }
 
+        }
+    };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
 
 
-        this.setTitle("购物车");
+
 
         ActionBar actionBar = getSupportActionBar();
         //设置状态栏和标题栏颜色
         ColorDrawable cd = new ColorDrawable(Color.parseColor("#EE756D"));
-        actionBar.setBackgroundDrawable(cd);
+
         Window window = this.getWindow();
         window.setStatusBarColor(Color.parseColor("#EE756D"));
         //显示返回按键
@@ -50,40 +82,22 @@ public class CartActivity extends AppCompatActivity {
         // 获取控件
         totalPrice=findViewById(R.id.cart_totalprice);
         placeOrder=findViewById(R.id.cart_place_order);
+        tb = findViewById(R.id.cart_toobar);
+        pb =findViewById(R.id.ac_pb);
+        pb.setVisibility(View.VISIBLE);
+        tb.setTitle("购物车");
+        setSupportActionBar(tb);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
-        //构建listview
-        ArrayList<HashMap<String, Object>> listItem = new ArrayList<HashMap<String, Object>>();
-        String[] name = new String[]{
-                "桂花梅子酒", "猕猴桃", "薯片", "桂花梅子酒", "猕猴桃"};
-        String[] type = new String[]{"水果", "水果", "零食", "饮品", "水果"};
-        for (int i = 0; i < name.length; i++) {
-            HashMap<String, Object> map = new HashMap<String, Object>();
-            map.put("name", name[i]);
-            map.put("type", type[i]);
-            map.put("image", R.drawable.guihua);
-            map.put("sign", "￥");
-            map.put("price", "20");
-            map.put("num", 3);
-            listItem.add(map);
-        }
-
-//        //构造SimpleAdapter对象，设置适配器
-//        SimpleAdapter mSimpleAdapter = new SimpleAdapter(this,
-//                listItem,//需要绑定的数据
-//                R.layout.cart_listview_item,//每一行的布局
-//                new String[]{"name", "type", "image", "sign", "price", "num", "buttonp", "buttonr"},
-//                //数组中的数据源的键对应到定义布局的View中
-//                new int[]{R.id.cart_listview_name, R.id.cart_listview_type, R.id.cart_listview_pic, R.id.cart_listview_sign, R.id.cart_listview_price, R.id.cart_listview_num, R.id.cart_listview_buttonp, R.id.cart_listview_buttonr});
         ListView listview = (ListView) findViewById(R.id.cart_listview);
 //        //为ListView绑定适配器
 //        listview.setAdapter(mSimpleAdapter);
 
-        ArrayList<String> nameList = new ArrayList<String>();
-        ArrayList<String> numList = new ArrayList<String>();
-        nameList = new ArrayList<String>(Arrays.asList("桂花梅子酒,猕猴桃,薯片".split(",")));
-        numList = new ArrayList<String>(Arrays.asList("1,2,3".split(",")));
-        CartListViewAdapter clva = new CartListViewAdapter(nameList, numList,getApplicationContext());
+
+//        nameList = new ArrayList<String>(Arrays.asList("桂花梅子酒,猕猴桃,薯片".split(",")));
+//        numList = new ArrayList<String>(Arrays.asList("1,2,3".split(",")));
+        clva = new CartListViewAdapter(nameList, numList,getApplicationContext());
         listview.setAdapter(clva);
 
 
@@ -95,6 +109,42 @@ public class CartActivity extends AppCompatActivity {
             i.putExtras(bundle);
             startActivity(i);
         });
+
+
+
+        OkHttpClient httpClient = new OkHttpClient();
+
+        String url = "https://foodie.itslucas.me/cart.php?id="+fzr_constant.userID;
+        Request getRequest = new Request.Builder()
+                .url(url)
+                .get()
+                .build();
+
+        Call call = httpClient.newCall(getRequest);
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    //同步请求，要放到子线程执行
+                    Response response = call.execute();
+
+                    String res = response.body().string();
+//
+                    fzr_constant.cartList = JSON.parseObject(res, new TypeReference<List<CartBean>>() {});
+
+                    for (int i = 0; i < fzr_constant.cartList.size(); i++) {
+                        nameList.add(fzr_constant.cartList.get(i).getPname());
+                        numList.add(fzr_constant.cartList.get(i).getQuantity());
+                    }
+                    mHandler.sendEmptyMessage(1);
+
+//
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
 
     }
 

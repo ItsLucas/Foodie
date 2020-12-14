@@ -5,8 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.drawable.RoundedBitmapDrawable;
 import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory;
 
+import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.service.autofill.UserData;
 import android.text.method.ScrollingMovementMethod;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -14,6 +16,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import me.itslucas.foodie.ChatActivity;
 import me.itslucas.foodie.R;
 import me.itslucas.foodie.beans.UserInfoBean;
 
@@ -46,8 +49,7 @@ public class ProductDetail extends AppCompatActivity {
         }
 
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+
 
         ib_back=findViewById(R.id.apd_back);
         imv =findViewById(R.id.apd_pic);
@@ -63,6 +65,7 @@ public class ProductDetail extends AppCompatActivity {
         
         tv_name.setText(proName);
         tv_price.setText(proPrice);
+        ib_like.setImageResource(R.drawable.ic_kefu);
 
 
         RoundedBitmapDrawable circularBitmapDrawable = RoundedBitmapDrawableFactory.create(this.getResources(), BitmapFactory.decodeResource(this.getResources(), picId));
@@ -83,15 +86,15 @@ public class ProductDetail extends AppCompatActivity {
             }
 
         });
+        
+        
         ib_like.setOnClickListener((v)->{
-            if(!likeFlag){
-                ib_like.setImageResource(R.drawable.ic_like_full);
-
-            }else{
-                ib_like.setImageResource(R.drawable.ic_like_emp);
-            }
-
-
+            Intent intent = new Intent(this, ChatActivity.class);
+            Bundle bundle = new Bundle();
+            bundle.putBoolean("isroom",true);
+            bundle.putString("user", "111");
+            intent.putExtras(bundle);
+            startActivity(intent);
             likeFlag=!likeFlag;
         });
 

@@ -1,6 +1,7 @@
 package me.itslucas.foodie.Fragment;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import me.itslucas.foodie.activities.fzr.SelectProductActivity;
 import me.itslucas.foodie.beans.Category;
 import me.itslucas.foodie.beans.HomeCampaign;
 import me.itslucas.foodie.beans.HomeCategory;
@@ -108,6 +111,8 @@ public class HomeCatgoryAdapter extends RecyclerView.Adapter<HomeCatgoryAdapter.
                         mListener.onClick(v,category.getCtBig());
 
                         //TODO: middle
+                        Intent i = new Intent(mContext, SelectProductActivity.class);
+                        mContext.startActivity(i);
                         Toast.makeText(v.getContext(), category.getCtBig().getName(),Toast.LENGTH_LONG).show();
 
                         break;

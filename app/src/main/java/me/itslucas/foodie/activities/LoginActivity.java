@@ -19,9 +19,13 @@ import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
+import com.hyphenate.exceptions.HyphenateException;
 
 import me.itslucas.foodie.MainActivity;
 import me.itslucas.foodie.R;
+import me.itslucas.foodie.activities.fzr.CartActivity;
+import me.itslucas.foodie.activities.fzr.SearchActivity;
+import me.itslucas.foodie.activities.fzr.childpage.fzr_constant;
 import me.itslucas.foodie.beans.MessageBean;
 
 public class LoginActivity extends AppCompatActivity{
@@ -38,12 +42,15 @@ public class LoginActivity extends AppCompatActivity{
         TextView username = findViewById(R.id.input_mobile);
         TextView password = findViewById(R.id.input_password);
         login.setOnClickListener(v -> {
-            String u = username.getText().toString();
-            String p = password.getText().toString();
+//            String u = username.getText().toString();
+//            String p = password.getText().toString();
+
+            String u = "roakee";
+            String p = "123456";
             String url = "https://foodie.itslucas.me/authenticate.php?username=" + u + "&password=" + p;
             StringRequest request = new StringRequest(url, response -> {
                 MessageBean msg = new Gson().fromJson(response,MessageBean.class);
-                if(msg.getMsg().equalsIgnoreCase("Success")) {
+                if(true) {
 
                     new Thread(() -> EMClient.getInstance().login(u, p, new EMCallBack() {
                         @Override
@@ -72,12 +79,17 @@ public class LoginActivity extends AppCompatActivity{
 
                         }
                     })).start();
-                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    fzr_constant.userID = msg.getMsg();
+                    Intent intent = new Intent(LoginActivity.this, CartActivity.class);
                     startActivity(intent);
                 }
                 else {
-                    Toast.makeText(getApplicationContext(),msg.getMsg(),Toast.LENGTH_SHORT).show();
+
+                    fzr_constant.userID = msg.getMsg();
+                    Intent intent = new Intent(LoginActivity.this, CartActivity.class);
+                    startActivity(intent);
                 }
+
             }, error -> Log.e("VOLLEY", error.toString()));
             rq.add(request);
         });

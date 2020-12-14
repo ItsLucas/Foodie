@@ -122,7 +122,7 @@ public class HomeFragment extends Fragment {
         Category ct3 = new Category();
 
         HomeCategory category = new HomeCategory("进口食品",R.drawable.img_big_1,R.drawable.img_1_small1,R.drawable.img_1_small2,ct1,ct2,ct3);
-        category.HomeCategoryAdd("食物一","食物二","食物三");
+        category.HomeCategoryAdd("分类一","食物二","食物三");
         datas.add(category);
 
 
@@ -130,22 +130,21 @@ public class HomeFragment extends Fragment {
         Category ct5 = new Category();
         Category ct6 = new Category();
        HomeCategory category1 = new HomeCategory("饼干零食",R.drawable.img_big_4,R.drawable.img_4_small1,R.drawable.img_4_small2,ct4,ct5,ct6);
-       category1.HomeCategoryAdd("食物四","食物五","食物六");
+       category1.HomeCategoryAdd("分类二","食物五","食物六");
         datas.add(category1);
 
         Category ct7 = new Category();
         Category ct8 = new Category();
         Category ct9 = new Category();
        HomeCategory category2 = new HomeCategory("缤纷水饮",R.drawable.img_big_2,R.drawable.img_2_small1,R.drawable.img_2_small2,ct7,ct8,ct9);
-       //category2.HomeCategoryAdd("缤纷水饮",R.drawable.img_big_2,"食物七",R.drawable.img_2_small1,"食物八",R.drawable.img_2_small2,"食物九");
-        category1.HomeCategoryAdd("食物七","食物八","食物九");
+        category2.HomeCategoryAdd("分类三","食物八","食物九");
         datas.add(category2);
 
         Category ct10 = new Category();
         Category ct11 = new Category();
         Category ct12 = new Category();
        HomeCategory category3 = new HomeCategory("米面杂粮",R.drawable.img_big_3,R.drawable.img_3_small1,R.drawable.imag_3_small2,ct10,ct11,ct12);
-     //  category3.HomeCategoryAdd("米面杂粮",R.drawable.img_big_3,"食物十",R.drawable.img_3_small1,"食物十一",R.drawable.imag_3_small2,"食物十二");
+        category3.HomeCategoryAdd("分类四","食物十一","食物十二");
         datas.add(category3);
 
         Category ct13 = new Category();
@@ -153,6 +152,7 @@ public class HomeFragment extends Fragment {
         Category ct15 = new Category();
        HomeCategory category4 = new HomeCategory("油盐酱醋",R.drawable.img_big_0,R.drawable.img_0_small1,R.drawable.img_0_small2,ct13,ct14,ct15);
      //  category4.HomeCategoryAdd("油盐酱醋",R.drawable.img_big_0,"食物十三",R.drawable.img_0_small1,"食物十四",R.drawable.img_0_small2,"食物十五");
+        category4.HomeCategoryAdd("分类五","食物十四","食物十五");
         datas.add(category4);
 
         mAdapter = new HomeCatgoryAdapter(datas);

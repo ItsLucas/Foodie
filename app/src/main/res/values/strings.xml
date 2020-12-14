@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Foodie</string>
-<<<<<<< HEAD
+
     <string name="title_activity_select_product">SelectProductActivity</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
-=======
+
     <string name="title_home">主页</string>
     <string name="title_dashboard">购物车</string>
     <string name="title_notifications">我的</string>
@@ -20,5 +20,5 @@
     <string name="tv_account">登录账号：</string>
     <string name="tv_username">昵称</string>
     <string name="tv_password">密码</string>
->>>>>>> f87a7ac93aea7c7b98cf8c5c2668bff5222b6e22
+
 </resources>
