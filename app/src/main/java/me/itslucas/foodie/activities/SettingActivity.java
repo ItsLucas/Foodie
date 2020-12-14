@@ -51,7 +51,7 @@ public class SettingActivity extends AppCompatActivity {
         mBtnPersonal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "当前已是最新版本！   V1.0.0", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "当前已是最新版本！V1.0.0", Toast.LENGTH_LONG).show();
             }
         });
 
