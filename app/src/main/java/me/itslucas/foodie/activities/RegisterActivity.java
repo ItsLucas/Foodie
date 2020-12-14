@@ -21,7 +21,6 @@ import com.hyphenate.exceptions.HyphenateException;
 
 import java.util.Random;
 
-import me.itslucas.foodie.MainActivity;
 import me.itslucas.foodie.R;
 import me.itslucas.foodie.beans.MessageBean;
 
@@ -37,7 +36,7 @@ public class RegisterActivity extends AppCompatActivity{
         _mobileText = findViewById(R.id.input_mobile);
         _passwordText = findViewById(R.id.input_password);
         _vertifyText = findViewById(R.id.input_verify);
-        _signupButton = findViewById(R.id.btn_signup);
+        _signupButton = findViewById(R.id.btn_submit);
         _loginLink = findViewById(R.id.link_login);
         _back = findViewById(R.id.signup_back);
     }
