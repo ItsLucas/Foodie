@@ -8,16 +8,17 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-        <color name="grey">#9598A1</color>
-        <color name="brown">#C18165</color>
+
+    <color name="grey">#9598A1</color>
+    <color name="brown">#C18165</color>
     <color name="specialred">#FC5522</color>
     <color name="coralred">#EE756D</color>
     <color name="prettygreen">#D8FFD0</color>
     <color name="lightgrey">#F8F6F7</color>
-        <!--#eb4f38-->
-        <!--#56abe4-->
-        <!--#fb0d7e-->
-        <!--#f1144d-->
+    <!--#eb4f38-->
+    <!--#56abe4-->
+    <!--#fb0d7e-->
+    <!--#f1144d-->
 
     <!--背景颜色-->
     <color name="colorBackground">#eeeeee</color>

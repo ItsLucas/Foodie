@@ -23,22 +23,29 @@ import com.hyphenate.exceptions.HyphenateException;
 
 import me.itslucas.foodie.MainActivity;
 import me.itslucas.foodie.R;
+
 import me.itslucas.foodie.activities.fzr.CartActivity;
 import me.itslucas.foodie.activities.fzr.SearchActivity;
 import me.itslucas.foodie.activities.fzr.SelectProductActivity;
 import me.itslucas.foodie.activities.fzr.childpage.fzr_constant;
+
+import me.itslucas.foodie.UserData;
+import me.itslucas.foodie.activities.fzr.SearchActivity;
+import me.itslucas.foodie.activities.fzr.SelectProductActivity;
+
 import me.itslucas.foodie.beans.MessageBean;
 
-public class LoginActivity extends AppCompatActivity{
+public class LoginActivity extends AppCompatActivity {
 
     private RequestQueue rq;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         rq = Volley.newRequestQueue(this);
 
-        Button login = (Button)findViewById(R.id.btn_login);
+        Button login = (Button) findViewById(R.id.btn_login);
         TextView signupLink = findViewById(R.id.link_signup);
         TextView username = findViewById(R.id.input_mobile);
         TextView password = findViewById(R.id.input_password);
@@ -47,19 +54,20 @@ public class LoginActivity extends AppCompatActivity{
             String p = "123456";
 
 
-
             String url = "https://foodie.itslucas.me/authenticate.php?username=" + u + "&password=" + p;
             StringRequest request = new StringRequest(url, response -> {
-                MessageBean msg = new Gson().fromJson(response,MessageBean.class);
-                if(true) {
+                MessageBean msg = new Gson().fromJson(response, MessageBean.class);
 
+                if (!msg.getMsg().equalsIgnoreCase("Incorrect username")) {
+                    UserData.cid = msg.getMsg();
+                    Log.i("Login", "cid: " + UserData.cid);
                     new Thread(() -> EMClient.getInstance().login(u, p, new EMCallBack() {
                         @Override
                         public void onSuccess() {
                             runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
-                                    Toast.makeText(getApplicationContext(),"IM Server Logged In",Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(getApplicationContext(), "IM Server Logged In", Toast.LENGTH_SHORT).show();
                                 }
                             });
 
@@ -70,7 +78,7 @@ public class LoginActivity extends AppCompatActivity{
                             runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
-                                    Toast.makeText(getApplicationContext(),"IM Server Login Failed",Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(getApplicationContext(), "IM Server Login Failed", Toast.LENGTH_SHORT).show();
                                 }
                             });
                         }
@@ -83,8 +91,7 @@ public class LoginActivity extends AppCompatActivity{
                     fzr_constant.userID = msg.getMsg();
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(intent);
-                }
-                else {
+                } else {
 
                     fzr_constant.userID = msg.getMsg();
                     Intent intent = new Intent(LoginActivity.this, CartActivity.class);
@@ -97,7 +104,8 @@ public class LoginActivity extends AppCompatActivity{
         signupLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
+                //Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
+                Intent intent = new Intent(getApplicationContext(), SearchActivity.class);
                 startActivity(intent);
                 finish();
                 overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
