@@ -9,41 +9,52 @@
         tools:context="me.itslucas.foodie.Fragment.home.HomeFragment">
 
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/coralred"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="主页" />
+
     <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="402dp"
-            android:layout_height="449dp"
+            android:layout_height="600dp"
             android:scrollbars="vertical" tools:layout_editor_absoluteX="4dp"
             app:layout_constraintTop_toBottomOf="@+id/daimajia_slider_image" tools:ignore="MissingConstraints"
             android:layout_marginTop="4dp" app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.12"/>
+
     <com.daimajia.slider.library.SliderLayout
-            android:id="@+id/daimajia_slider_image"
-            android:layout_width="432dp"
-            android:layout_height="162dp"
-            tools:ignore="MissingConstraints"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="-16dp"/>
+        android:id="@+id/daimajia_slider_image"
+        android:layout_width="432dp"
+        android:layout_height="162dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp" />
 
 
     <com.daimajia.slider.library.Indicators.PagerIndicator
-            android:id="@+id/custom_indicator"
-            android:layout_width="434dp"
-            android:layout_height="300dp"
-            android:gravity="center"
-            custom:selected_color="#555555"
-            custom:unselected_color="#55555555"
-            custom:shape="oval"
-            custom:selected_padding_left="3dp"
-            custom:selected_padding_right="3dp"
-            custom:unselected_padding_left="3dp"
-            custom:unselected_padding_right="3dp"
-            custom:selected_width="8dp"
-            custom:selected_height="8dp"
-            custom:unselected_width="4dp"
-            custom:unselected_height="4dp"
-            tools:ignore="MissingConstraints" tools:layout_editor_absoluteY="-14dp"
-            tools:layout_editor_absoluteX="-16dp"/>
+        android:id="@+id/custom_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2"
+        custom:selected_color="#555555"
+        custom:selected_height="8dp"
+        custom:selected_padding_left="3dp"
+        custom:selected_padding_right="3dp"
+        custom:selected_width="8dp"
+        custom:shape="oval"
+        custom:unselected_color="#55555555"
+        custom:unselected_height="4dp"
+        custom:unselected_padding_left="3dp"
+        custom:unselected_padding_right="3dp"
+        custom:unselected_width="4dp"
+        tools:ignore="MissingConstraints" />
     <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerviewiew"
             android:layout_width="371dp"

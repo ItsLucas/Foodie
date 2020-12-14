@@ -2,10 +2,13 @@ package me.itslucas.foodie.activities.fzr;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -19,16 +22,26 @@ import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.TypeReference;
 import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import me.itslucas.foodie.R;
 import me.itslucas.foodie.activities.fzr.childpage.ProductDetail;
+import me.itslucas.foodie.activities.fzr.childpage.fzr_constant;
+import me.itslucas.foodie.beans.ProductsBean;
+import okhttp3.Call;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 
 public class SearchActivity extends AppCompatActivity {
 
@@ -47,10 +60,22 @@ public class SearchActivity extends AppCompatActivity {
     Chip c6;
     SharedPreferences sp;
     SharedPreferences.Editor spe;
+    Context c;
+    private Handler mHandler = new Handler() {
+        public void handleMessage(Message msg) {
+            switch (msg.what) {
+                case 1:
+
+                    break;
+            }
+
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        c=getApplicationContext();
         //防止键盘改动布局
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
         setContentView(R.layout.activity_search);
@@ -169,9 +194,9 @@ public class SearchActivity extends AppCompatActivity {
             Intent i = new Intent(this, ProductDetail.class);
 
             Bundle bundle = new Bundle();
-            bundle.putString("name","乐事原味薯片");
-            bundle.putString("price",getPriceByName("乐事原味薯片"));
-            bundle.putInt("pic",getPicByName("乐事原味薯片"));
+            bundle.putString("name","鸡肉丸");
+            bundle.putString("price",getPriceByName("鸡肉丸"));
+            bundle.putInt("pic",getPicByName("鸡肉丸"));
             i.putExtras(bundle);
             //这一行加了没用，不加闪退
             i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -234,7 +259,58 @@ public class SearchActivity extends AppCompatActivity {
 
                 Chip c = new Chip(SearchActivity.this);
                 c.setText(query);
-                historychips.addView(c,0);
+                historychips.addView(c);
+
+
+
+
+
+                OkHttpClient httpClient = new OkHttpClient();
+                String url = "https://foodie.itslucas.me/search.php?pattern="+query;
+                Request getRequest = new Request.Builder()
+                        .url(url)
+                        .get()
+                        .build();
+
+                Call call = httpClient.newCall(getRequest);
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            //同步请求，要放到子线程执行
+                            Response response = call.execute();
+
+                            String res = response.body().string();
+//
+                            List<ProductsBean>  lpb = JSON.parseObject(res, new TypeReference<List<ProductsBean>>() {
+                            });
+
+
+                            Intent i = new Intent(getApplicationContext(),ProductDetail.class);
+                            Bundle b = new Bundle();
+                            b.putString("name",lpb.get(0).getPname());
+                            b.putString("price",fzr_constant.getPriceByName(lpb.get(0).getPname()));
+                            b.putInt("pic",fzr_constant.getPicByName(lpb.get(0).getPname()));
+
+                            i.putExtras(b);
+                            startActivity(i);
+
+
+
+
+//
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }).start();
+
+
+
+
+
+
+
                 return true;
             }
 
@@ -256,14 +332,26 @@ public class SearchActivity extends AppCompatActivity {
             for (String s : temp) {
                 Chip c = new Chip(SearchActivity.this);
                 c.setText(s);
+                c.setCheckable(true);
                 historychips.addView(c);
             }
         }
 
+        historychips.setOnCheckedChangeListener(new ChipGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(ChipGroup group, int checkedId) {
+                Chip c = historychips.findViewById(checkedId);
+                if(c!=null){
+                    Log.i("chip",c.getText().toString());
+                    mSearchView.setQuery(c.getText().toString(),true);
+                }
+
+            }
+        });
 
     }
 
-    private String getPriceByName(String s) {
+    public static String getPriceByName(String s) {
         if(s.equals("猕猴桃")){
             return "￥32";
         }else if (s.equals("桂花梅子酒")){

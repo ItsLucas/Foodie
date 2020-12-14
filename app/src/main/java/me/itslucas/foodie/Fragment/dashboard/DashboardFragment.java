@@ -21,6 +21,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
@@ -59,6 +60,10 @@ public class DashboardFragment extends Fragment {
                 case 1:
                     clva.notifyDataSetChanged();
                     pb.setVisibility(View.GONE);
+                    totalPrice.setText(priceAll + "");
+                    break;
+                case 2:
+                    pb.setVisibility(View.VISIBLE);
                     break;
             }
 
@@ -71,7 +76,7 @@ public class DashboardFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
         tb = root.findViewById(R.id.fd_db);
         tb.setTitle("购物车");
-        priceAll=0;
+        priceAll = 0;
 
 
 //=========================================
@@ -92,23 +97,45 @@ public class DashboardFragment extends Fragment {
             bundle.putFloat("price", Float.parseFloat(totalPrice.getText().toString()));
             i.putExtras(bundle);
             startActivity(i);
+
+
+            OkHttpClient httpClient = new OkHttpClient();
+            String url = "https://foodie.itslucas.me/cart.php?id=" + fzr_constant.userID + "&placeorder=1";
+            Request getRequest = new Request.Builder()
+                    .url(url)
+                    .get()
+                    .build();
+            Call call = httpClient.newCall(getRequest);
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        //同步请求，要放到子线程执行
+                        Response response = call.execute();
+
+                        String res = response.body().string();
+
+
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }).start();
         });
 
         OkHttpClient httpClient = new OkHttpClient();
-
         String url = "https://foodie.itslucas.me/cart.php?id=" + fzr_constant.userID;
         Request getRequest = new Request.Builder()
                 .url(url)
                 .get()
                 .build();
-
         Call call = httpClient.newCall(getRequest);
-
         new Thread(new Runnable() {
             @Override
             public void run() {
                 try {
                     //同步请求，要放到子线程执行
+                    mHandler.sendEmptyMessage(2);
                     Response response = call.execute();
 
                     String res = response.body().string();
@@ -119,9 +146,9 @@ public class DashboardFragment extends Fragment {
                     for (int i = 0; i < fzr_constant.cartList.size(); i++) {
                         nameList.add(fzr_constant.cartList.get(i).getPname());
                         numList.add(fzr_constant.cartList.get(i).getQuantity());
-                        priceAll+=Integer.parseInt(getPriceByName(nameList.get(i)))*Integer.parseInt(numList.get(i));
+                        priceAll += Integer.parseInt(getPriceByName(nameList.get(i))) * Integer.parseInt(numList.get(i));
                     }
-                    totalPrice.setText(priceAll+"");
+
                     mHandler.sendEmptyMessage(1);
 
 
@@ -136,33 +163,35 @@ public class DashboardFragment extends Fragment {
     }
 
     public static void changeTotalPrice(int a) {
-        priceAll+=a;
-        totalPrice.setText(priceAll+"");
+        priceAll += a;
+        totalPrice.setText(priceAll + "");
     }
+
     private String getPriceByName(String s) {
-        if(s.equals("猕猴桃")){
+        if (s.equals("猕猴桃")) {
             return "32";
-        }else if (s.equals("桂花梅子酒")){
+        } else if (s.equals("桂花梅子酒")) {
             return "100";
-        }else if(s.equals("鸡肉丸")){
+        } else if (s.equals("鸡肉丸")) {
             return "50";
-        }else if(s.equals("榴莲腰果")){
+        } else if (s.equals("榴莲腰果")) {
             return "20";
-        }else if(s.equals("咸蛋黄小饼干")){
+        } else if (s.equals("咸蛋黄小饼干")) {
             return "8";
-        }else if(s.equals("蔓越莓干")){
+        } else if (s.equals("蔓越莓干")) {
             return "22";
-        }else if(s.equals("梅尼耶干蛋糕")){
+        } else if (s.equals("梅尼耶干蛋糕")) {
             return "15";
-        }else if(s.equals("岩烧乳酪面包")){
+        } else if (s.equals("岩烧乳酪面包")) {
             return "35";
-        }else if(s.equals("蛋黄酥")){
+        } else if (s.equals("蛋黄酥")) {
             return "25";
-        }else if(s.equals("植物牛肉")){
+        } else if (s.equals("植物牛肉")) {
             return "35";
-        }else if(s.equals("梅林午餐肉")){
+        } else if (s.equals("梅林午餐肉")) {
             return "75";
         }
         return "";
     }
+
 }

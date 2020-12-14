@@ -3,6 +3,7 @@ package me.itslucas.foodie.activities.fzr.childpage;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -11,6 +12,8 @@ import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import me.itslucas.foodie.Fragment.dashboard.DashboardFragment;
+import me.itslucas.foodie.MainActivity;
 import me.itslucas.foodie.R;
 import me.itslucas.foodie.beans.UserInfoBean;
 
@@ -22,6 +25,8 @@ public class BuyResultActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buy_result);
+
+
 
         ActionBar actionBar = getSupportActionBar();
         ColorDrawable cd = new ColorDrawable(Color.parseColor("#EE756D"));
@@ -50,10 +55,7 @@ public class BuyResultActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-    }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -64,5 +66,11 @@ public class BuyResultActivity extends AppCompatActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent i  = new Intent(this, MainActivity.class);
+        startActivity(i);
     }
 }
