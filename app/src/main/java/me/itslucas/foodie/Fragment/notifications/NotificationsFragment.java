@@ -18,6 +18,8 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import me.itslucas.foodie.R;
 import me.itslucas.foodie.activities.AboutUsActivity;
+import me.itslucas.foodie.activities.BuyHistoryActivity;
+import me.itslucas.foodie.activities.PersonalActivity;
 import me.itslucas.foodie.activities.SettingActivity;
 
 public class NotificationsFragment extends Fragment {
@@ -38,14 +40,14 @@ public class NotificationsFragment extends Fragment {
         StrictMode.setVmPolicy(builder.build());
         builder.detectFileUriExposure();
 
-//        //初始化控件并设置点击事件
-//        mImageView = view.findViewById(R.id.cat_avatar);
-//        mName = view.findViewById(R.id.cat_title);
-//
-//        //获得context
-//        Context context = getActivity().getApplicationContext();
-//        //设置到默认头像
-//        mImageView.setImageDrawable(getResources().getDrawable(R.drawable.cutecat));
+        //初始化控件并设置点击事件
+        mImageView = view.findViewById(R.id.cat_avatar);
+        mName = view.findViewById(R.id.cat_title);
+
+        //获得context
+        Context context = getActivity().getApplicationContext();
+        //设置到默认头像
+        mImageView.setImageDrawable(getResources().getDrawable(R.drawable.cutecat));
 
 
 
@@ -61,7 +63,8 @@ public class NotificationsFragment extends Fragment {
         mBtnBought.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(getActivity(), BuyHistoryActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -70,7 +73,8 @@ public class NotificationsFragment extends Fragment {
         mBtnUserInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getActivity(), PersonalActivity.class);
+                startActivity(intent);
             }
         });
 
