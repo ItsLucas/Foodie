@@ -10,6 +10,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
@@ -17,19 +18,27 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
+import com.android.volley.RequestQueue;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+import com.google.gson.Gson;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 import me.itslucas.foodie.R;
+import me.itslucas.foodie.UserData;
 import me.itslucas.foodie.activities.fzr.childpage.BuyResultActivity;
 import me.itslucas.foodie.activities.fzr.childpage.CartListViewAdapter;
 import me.itslucas.foodie.activities.fzr.childpage.fzr_constant;
 import me.itslucas.foodie.beans.CartBean;
+import me.itslucas.foodie.beans.MessageBean;
 import okhttp3.Call;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -40,6 +49,7 @@ public class CartActivity extends AppCompatActivity {
     static TextView totalPrice;
     Button placeOrder;
     Toolbar tb;
+    RequestQueue rq;
     ArrayList<String> nameList = new ArrayList<String>();
     ArrayList<String> numList = new ArrayList<String>();
     CartListViewAdapter clva;
@@ -59,7 +69,7 @@ public class CartActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
-
+        rq = Volley.newRequestQueue(this);
 
 
 
@@ -99,12 +109,21 @@ public class CartActivity extends AppCompatActivity {
 
 
         placeOrder.setOnClickListener((v)->{
-            Intent i = new Intent(CartActivity.this, BuyResultActivity.class);
-            Bundle bundle = new Bundle();
-
-            bundle.putFloat("price",Float.parseFloat(totalPrice.getText().toString()));
-            i.putExtras(bundle);
-            startActivity(i);
+            String url = "https://foodie.itslucas.me/cart.php?placeorder=true&id=" + UserData.cid;
+            StringRequest req = new StringRequest(url, response -> {
+                MessageBean msg = new Gson().fromJson(response,MessageBean.class);
+                if(msg.getMsg().equalsIgnoreCase("Success")) {
+                    Intent i = new Intent(CartActivity.this, BuyResultActivity.class);
+                    Bundle bundle = new Bundle();
+                    bundle.putFloat("price", Float.parseFloat(totalPrice.getText().toString()));
+                    i.putExtras(bundle);
+                    startActivity(i);
+                }
+                else {
+                    runOnUiThread(() -> Toast.makeText(getApplicationContext(),msg.getMsg(),Toast.LENGTH_SHORT).show());
+                }
+            }, error -> Log.e("VOLLEY",error.toString()));
+            rq.add(req);
         });
 
 

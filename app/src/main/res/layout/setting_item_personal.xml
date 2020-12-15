@@ -123,7 +123,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="birthday"
-                    android:inputType="date"
+                    android:inputType="textVisiblePassword"
                     android:textColor="@color/jet" />
 
             </com.google.android.material.textfield.TextInputLayout>
